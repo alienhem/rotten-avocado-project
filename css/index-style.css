@@ -14,7 +14,7 @@ h1::before {
   position: absolute;
   top: 0; right: 0; bottom: 0; left: 0;
   inset: 0 0 0 0;
-  background: hsl(200 100% 80%);
+  background: hsl(147 50% 47%);
   z-index: -1;
   transition: transform .3s ease;
 }
@@ -44,3 +44,7 @@ body {
     grid-auto-flow: column;
   }
 }
+
+a:link{text-decoration: none; color: black;}
+a:visited{text-decoration: none; color: black;}
+a:active{text-decoration: none; color: black;}
